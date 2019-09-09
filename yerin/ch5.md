@@ -77,4 +77,5 @@
 * componentDidMount, componentWillUnMount 메서드는 useEffect 또는 useLayoutEffect 훅으로 대체할 수 있다.
 * 클래스 멤버 변수는 useRef 훅으로 대체할 수 있다.
 * constructor 메서드는 useRef훅을 이용하여 만들 수 있다.
-* componentDidUpdate
+* componentDidUpdate 또한 useRef로 이전 상태값을 저장하여 update를 확인한다.
+* forceUpdate 메서드는 useReducer을 이용하여 상태값을 바꾸어 강제로 랜더링을 한다,
